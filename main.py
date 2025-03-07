@@ -1,9 +1,6 @@
-from enum import auto, IntFlag
-from typing import Any
 from fastapi import FastAPI, Path, Query, HTTPException, status
 from pydantic import (
     BaseModel,
-    EmailStr,
     Field,
     ValidationError,
 )
